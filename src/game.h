@@ -1,0 +1,11 @@
+#include<iostream>
+#include<cstdlib>
+#include<ctime>
+#include<limits>
+#include"team.h"
+
+
+class game
+{
+
+};
