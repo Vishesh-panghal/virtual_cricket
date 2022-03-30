@@ -1,6 +1,14 @@
-#include<string>
+#include <string>
 
-class player
+class Player
 {
-
+public:
+    Player();
+    std::string name;
+    int index;
+    int runScored;
+    int ballPlayed;
+    int ballBowled;
+    int runGiven;
+    int wicketsTaken;
 };
