@@ -5,7 +5,16 @@
 #include"team.h"
 
 
-class game
+class Game
 {
-
+    public:
+    Game();
+    int playerPerTeam;
+    int maxBall;
+    int totalPlayers;
+    std::string Players[11];
+    bool isFirstinning;
+    Team teamA,teamB;
+    Team *battingTeam, *bowlingTeam;
+    Player *batsman, *bowler;
 };
