@@ -2,9 +2,8 @@
 #include "player.h"
 class Team
 {
-    Team();
-
 public:
+    Team();
     std::string name;
     int totalRunScored;
     int wicketsLoss;
